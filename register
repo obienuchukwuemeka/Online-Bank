@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Register - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html">Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="personal-banking.html">Current Account</a>
+                    <a href="personal-banking.html">Savings Account</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="private-banking.html">Investment Plans</a>
+                    <a href="private-banking.html">Business Loans</a>
+                </div>
+            </li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <div class="auth-page">
+        <div class="auth-card">
+            <div class="auth-logo">
+                <img src="assets/logo.png" alt="NovaTrust Bank">
+                <h2>NovaTrust Bank</h2>
+            </div>
+            <h1>Create Account</h1>
+            <p class="auth-subtitle">Join thousands of satisfied customers</p>
+            <form id="registerForm">
+
+                <div class="form-name-grid">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" class="form-input" placeholder="First name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" class="form-input" placeholder="Last name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="regEmail">Email Address</label>
+                    <input type="email" id="regEmail" class="form-input" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" class="form-input" placeholder="+234 000 000 0000">
+                </div>
+
+                <div class="form-group">
+                    <label for="regPassword">Password</label>
+                    <input type="password" id="regPassword" class="form-input" placeholder="Min. 8 characters" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" class="form-input" placeholder="Repeat your password" required>
+                </div>
+
+                <div class="form-check-wrapper">
+                    <input type="checkbox" id="terms" class="form-checkbox" required>
+                    <label for="terms" class="form-check-label">
+                        I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="auth-btn">Create Account</button>
+            </form>
+            <p class="auth-switch">Already have an account? <a href="signin.html">Sign in</a></p>
+        </div>
+    </div>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
