@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Banking - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html" >Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="currentacc.html">Current Account</a>
+                    <a href="savings-accounts.html">Savings Account</a>
+                    <a href="personal-loans.html">Personal Loans</a>
+                    <a href="credit-cards.html">Credit Cards</a>
+                    <a href="mortgages.html">Mortgages</a>
+                    <a href="personal-insurance.html">Personal Insurance</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html" class="active">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="investment-plans.html">Investment Plans</a>
+                    <a href="business-loans.html">Business Loans</a>
+                    <a href="wealth-management.html">Wealth Management</a>
+                    <a href="private-banking.html">Business Account</a>
+                </div>
+            </li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <div class="lang-switcher">
+                <i class="fa-solid fa-globe"></i>
+                <span>🇬🇧 English</span>
+                <div class="lang-dropdown">
+                    <a href="#" onclick="changeLang('EN')">🇬🇧 English</a>
+                    <a href="#" onclick="changeLang('FR')">🇫🇷 French</a>
+                    <a href="#" onclick="changeLang('ES')">🇪🇸 Spanish</a>
+                    <a href="#" onclick="changeLang('AR')">🇸🇦 Arabic</a>
+                </div>
+            </div>
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <div class="page-hero2">
+        <h1>Manage Your Wealth, <span>Shape Your Legacy</span></h1>
+        <p>From home to health, NovaTrust Bank private insurance plans are built around you. Get the cover you need at a price that works for your budget.</p>
+    </div>
+
+    <!-- Blog / Content Section -->
+    <div class="blog">
+
+        <div class="blog-img">
+            <img src="assets/two-handsome-successful-african-american-businessmen-using-magnifying-glass.jpg" alt="Blog Image">
+            <div class="blog-text">
+                <h2>Wealth Management</h2>
+                  <p>NovaTrust Bank wealth management services are designed for those who want more than just a bank. Expert strategies, personalised advice and comprehensive solutions to grow and protect your wealth for generations to come.</p>             
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h1>Quick Links</h1>
+            <ul>
+                <li><a href="investment-plans.html"><i class="fa-solid fa-circle-dot"></i> Investment Plans</a></li>
+                <li><a href="business-loans.html"><i class="fa-solid fa-circle-dot"></i> Business Loans</a></li>
+                <li><a href="wealth-management.html"><i class="fa-solid fa-circle-dot"></i> Wealth Management</a></li>
+                <li><a href="business-accounts.html"><i class="fa-solid fa-circle-dot"></i> Business Accounts</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Detailed Content Section -->
+    <div class="blog-detail">
+        <div class="blog-detail-content">
+
+            <h2>Primefinance Global Wealth Management</h2>
+            <p>NovaTrust Bank wealth management services provide a complete and integrated approach to growing, protecting and transferring your financial assets. Our team of experienced wealth advisors work closely with you to develop a personalised strategy that covers everything from investment portfolio management and tax planning to retirement planning and estate management. Whether you are building wealth for the first time or looking to preserve and grow an existing portfolio, we have the expertise and the tools to help you achieve your financial ambitions.</p>
+            <p>With NovaTrust Bank's advanced online wealth management platform, you can access a full overview of your financial position at any time from any device. Monitor the performance of your investments in real time, review detailed financial reports, adjust your portfolio preferences and communicate directly with your dedicated wealth advisor through our secure encrypted messaging system. Our digital platform is available 24 hours a day, 7 days a week, giving you complete visibility and control over your financial future without ever having to leave the comfort of your home.</p>
+            <p>At NovaTrust Bank we understand that every client's financial situation is unique, which is why we never offer a one-size-fits-all approach to wealth management. Our advisors take the time to understand your personal goals, risk tolerance and timeline before designing a bespoke strategy that works specifically for you. With transparent fee structures, regular portfolio reviews and a dedicated support team available Monday to Friday from 8:30am to 5:00pm, NovaTrust Bank is the trusted partner you need to build a lasting financial legacy.</p>
+
+
+        </div>
+    </div>
+
+    <section class="cta">
+        <h2>Ready to get started?</h2>
+        <p>Open your personal banking account today in just a few minutes.</p>
+        <a href="register.html" class="btn-blue">OPEN ACCOUNT</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="NovaTrust Bank" class="footer-logo-img">
+                    <span class="footer-logo-text">NovaTrust Bank</span>
+                </div>
+                <p>NovaTrust Bank is a privately operated personal and business banking platform.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Receive Latest Updates for Free</h3>
+                <input type="email" class="footer-input" placeholder="Email Address">
+                <button class="footer-btn">Subscribe</button>
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="careers.html">Career</a>
+                    <a href="personal-banking.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Copyright © 2024 NovaTrust Bank</span>
+            <span>All rights reserved.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
