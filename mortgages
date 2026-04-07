@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Banking - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html" class="active">Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="currentacc.html">Current Account</a>
+                    <a href="savings-accounts.html">Savings Account</a>
+                    <a href="personal-loans.html">Personal Loans</a>
+                    <a href="credit-cards.html">Credit Cards</a>
+                    <a href="mortgages.html">Mortgages</a>
+                    <a href="personal-insurance.html">Personal Insurance</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="investment-plans.html">Investment Plans</a>
+                    <a href="business-loans.html">Business Loans</a>
+                    <a href="private-banking.html">Wealth Management</a>
+                    <a href="private-banking.html">Business Account</a>
+                </div>
+            </li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <div class="lang-switcher">
+                <i class="fa-solid fa-globe"></i>
+                <span>🇬🇧 English</span>
+                <div class="lang-dropdown">
+                    <a href="#" onclick="changeLang('EN')">🇬🇧 English</a>
+                    <a href="#" onclick="changeLang('FR')">🇫🇷 French</a>
+                    <a href="#" onclick="changeLang('ES')">🇪🇸 Spanish</a>
+                    <a href="#" onclick="changeLang('AR')">🇸🇦 Arabic</a>
+                </div>
+            </div>
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <h1>Personal <span>Banking</span></h1>
+        <p>Manage your personal finances with ease. From current accounts to personal loans, we have everything you need.</p>
+    </div>
+
+    <!-- Blog / Content Section -->
+    <div class="blog">
+
+        <div class="blog-img">
+            <img src="assets/toy-model-house-piles-coins-front-view.jpg" alt="Blog Image">
+            <div class="blog-text">
+                <h2>Mortgages</h2>
+                <p>NovaTrust Bank mortgage plans make owning your dream home more achievable than ever. Competitive rates, flexible terms and expert guidance every step of the way.</p>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h1>Quick Links</h1>
+            <ul>
+                <li><a href="currentacc.html"><i class="fa-solid fa-circle-dot"></i> Current Accounts</a></li>
+                <li><a href="credit-cards.html"><i class="fa-solid fa-circle-dot"></i> Credit Cards</a></li>
+                <li><a href="savings-accounts.html"><i class="fa-solid fa-circle-dot"></i> Savings Accounts</a></li>
+                <li><a href="personal-loans.html"><i class="fa-solid fa-circle-dot"></i> Personal Loan</a></li>
+                <li><a href="mortgages.html"><i class="fa-solid fa-circle-dot"></i> Mortgages</a></li>
+                <li><a href="personal-insurance.html"><i class="fa-solid fa-circle-dot"></i> Personal Insurance</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Detailed Content Section -->
+    <div class="blog-detail">
+        <div class="blog-detail-content">
+
+            <h2>Primefinance Global Mortgages</h2>
+            <p>NovaTrust Bank offers a range of mortgage products designed to help first-time buyers, existing homeowners and property investors find the right home financing solution. Whether you are purchasing your first home, remortgaging an existing property or investing in real estate, our experienced mortgage advisors will work closely with you to find a plan that fits your income, lifestyle and long-term financial goals.</p>
+
+            <p>Applying for a NovaTrust Bank mortgage has never been easier thanks to our fully digital application process. From the comfort of your home, you can complete your mortgage application online, upload your supporting documents, track your application status in real time and receive a decision faster than traditional banks. Our secure online platform is available 24 hours a day, 7 days a week so you can manage your mortgage journey entirely at your own pace.</p>
+
+            <p>At NovaTrust Bank we are committed to making homeownership accessible and affordable for everyone. We offer fixed and variable rate mortgages with repayment periods of up to 30 years, with no hidden fees or early repayment penalties. Our mortgage advisors are available Monday to Friday from 8:30am to 5:00pm to answer your questions and walk you through every stage of the process. With NovaTrust Bank by your side, the keys to your dream home are closer than you think.</p>
+
+
+        </div>
+    </div>
+
+<section class="cta">
+    <h2>Your Dream Home is <span >Closer Than You Think</span></h2>
+    <p>Apply for a NovaTrust Bank mortgage today and take the first step towards owning the home you have always wanted. Competitive rates, flexible terms and expert guidance every step of the way.</p>
+    <a href="mortgages.html" class="btn-blue" style="margin-right: 15px;">APPLY NOW</a>
+</section>
+
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="NovaTrust Bank" class="footer-logo-img">
+                    <span class="footer-logo-text">NovaTrust Bank</span>
+                </div>
+                <p>NovaTrust Bank is a privately operated personal and business banking platform.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Receive Latest Updates for Free</h3>
+                <input type="email" class="footer-input" placeholder="Email Address">
+                <button class="footer-btn">Subscribe</button>
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="careers.html">Career</a>
+                    <a href="personal-banking.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Copyright © 2024 NovaTrust Bank</span>
+            <span>All rights reserved.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
