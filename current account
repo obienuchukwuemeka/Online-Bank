@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Current Account - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html" class="active">Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="currentacc.html">Current Account</a>
+                    <a href="savings-accounts.html">Savings Account</a>
+                    <a href="personal-loans.html">Personal Loans</a>
+                    <a href="credit-cards.html">Credit Cards</a>
+                    <a href="mortgages.html">Mortgages</a>
+                    <a href="personal-insurance.html">Personal Insurance</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="investment-plans.html">Investment Plans</a>
+                    <a href="business-loans.html">Business Loans</a>
+                    <a href="wealth-management.html">Wealth Management</a>
+                    <a href="business-account.html">Business Account</a>
+                </div>
+            </li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <div class="lang-switcher">
+                <i class="fa-solid fa-globe"></i>
+                <span>🇬🇧 English</span>
+                <div class="lang-dropdown">
+                    <a href="#" onclick="changeLang('EN')">🇬🇧 English</a>
+                    <a href="#" onclick="changeLang('FR')">🇫🇷 French</a>
+                    <a href="#" onclick="changeLang('ES')">🇪🇸 Spanish</a>
+                    <a href="#" onclick="changeLang('AR')">🇸🇦 Arabic</a>
+                </div>
+            </div>
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="page-hero">
+        <h1>Current <span>Account</span></h1>
+        <p>Everyday banking made simple. Manage your money, make payments and stay in control of your finances with NovaTrust Bank's feature-rich current account.</p>
+    </div>
+
+    <!-- BLOG / IMAGE + QUICK LINKS -->
+    <div class="blog">
+        <div class="blog-img">
+            <img src="assets/man-interview-enthusiastic-job-opportunity-provides-detailed-answers.jpg" alt="Current Account">
+            <div class="blog-text">
+                <h2>NovaTrust Current Account</h2>
+                <p>Everything you need for everyday banking in one simple, powerful account with no hidden fees.</p>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h1>Quick Links</h1>
+            <ul>
+                <li><a href="currentacc.html"><i class="fa-solid fa-circle-dot"></i> Current Accounts</a></li>
+                <li><a href="credit-cards.html"><i class="fa-solid fa-circle-dot"></i> Credit Cards</a></li>
+                <li><a href="savings-accounts.html"><i class="fa-solid fa-circle-dot"></i> Savings Accounts</a></li>
+                <li><a href="personal-loans.html"><i class="fa-solid fa-circle-dot"></i> Personal Loan</a></li>
+                <li><a href="mortgages.html"><i class="fa-solid fa-circle-dot"></i> Mortgages</a></li>
+                <li><a href="personal-insurance.html"><i class="fa-solid fa-circle-dot"></i> Personal Insurance</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="blog-detail">
+        <div class="blog-detail-content">
+
+            <h2>NovaTrust Bank <span>Current Accounts</span></h2>
+
+            <p>NovaTrust Bank current accounts are designed to make everyday banking as simple and stress-free as possible. Whether you are managing your salary, paying bills, making online purchases or transferring money to family and friends, our current account gives you all the tools you need to stay on top of your finances with complete confidence and control.</p>
+
+            <p>Every NovaTrust Bank current account comes with a free CheckCard that works like a check anywhere VISA is accepted. It also serves as an ATM card at any PULSE, CIRRUS or DASH affiliated Automatic Teller Machine. There are no fees for withdrawals or transactions at ATMs we operate, no charge or annual fee for using the CheckCard and no identification or checkbook required. All CheckCard purchases are clearly identified on your monthly statement so you always know exactly where your money is going.</p>
+
+            <p>To report a lost or stolen NovaTrust Bank CheckCard or ATM Card, our support team is available Monday to Friday from 8:30am to 5:00pm. We take the security of your account extremely seriously and have advanced fraud detection systems running 24 hours a day to keep your money safe at all times.</p>
+
+        </div>
+    </div>
+
+    <!-- ACCOUNT FEATURES -->
+    <section class="acc-features">
+        <div class="acc-features-inner">
+            <h2 class="section-title white">What's <span>Included</span></h2>
+            <div class="section-underline"></div>
+            <div class="acc-features-grid">
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3>Free CheckCard</h3>
+                    <p>A free Visa CheckCard accepted worldwide at millions of merchants and ATMs.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h3>Mobile Banking</h3>
+                    <p>Manage your account anytime, anywhere through our secure mobile banking app.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-bell"></i>
+                    <h3>Instant Alerts</h3>
+                    <p>Receive real-time notifications for every transaction so you always stay informed.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-right-left"></i>
+                    <h3>Free Transfers</h3>
+                    <p>Send money to anyone instantly with zero fees for internal transfers.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Fraud Protection</h3>
+                    <p>Advanced 24/7 fraud monitoring to keep your account and money secure at all times.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-file-invoice"></i>
+                    <h3>Monthly Statements</h3>
+                    <p>Clear, detailed monthly statements available online or delivered to your door.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Online Banking</h3>
+                    <p>Full access to your account online 24 hours a day, 7 days a week from any device.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Dedicated Support</h3>
+                    <p>Our friendly customer support team is available to help you with any queries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACCOUNT TYPES -->
+    <section class="acc-types">
+        <div class="acc-types-inner">
+            <h2 class="section-title">Choose Your <span>Account Type</span></h2>
+            <div class="section-underline"></div>
+            <p class="acc-types-subtitle">We offer three current account options to suit different needs and lifestyles.</p>
+
+            <div class="acc-types-grid">
+
+                <div class="acc-type-card">
+                    <div class="acc-type-header">
+                        <h3>Basic</h3>
+                        <div class="acc-type-price">
+                            <span class="price">Free</span>
+                            <span class="period">per month</span>
+                        </div>
+                    </div>
+                    <ul class="acc-type-features">
+                        <li><i class="fa-solid fa-check"></i> Free CheckCard</li>
+                        <li><i class="fa-solid fa-check"></i> Online Banking</li>
+                        <li><i class="fa-solid fa-check"></i> Monthly Statements</li>
+                        <li><i class="fa-solid fa-check"></i> Mobile App Access</li>
+                        <li><i class="fa-solid fa-check"></i> ATM Withdrawals</li>
+                        <li class="inactive"><i class="fa-solid fa-xmark"></i> Overdraft Facility</li>
+                        <li class="inactive"><i class="fa-solid fa-xmark"></i> Travel Insurance</li>
+                        <li class="inactive"><i class="fa-solid fa-xmark"></i> Priority Support</li>
+                    </ul>
+                    <a href="register.html" class="btn-blue acc-type-btn">Open Account</a>
+                </div>
+
+                <div class="acc-type-card popular">
+                    <div class="acc-popular-badge">Most Popular</div>
+                    <div class="acc-type-header">
+                        <h3>Standard</h3>
+                        <div class="acc-type-price">
+                            <span class="price">$5</span>
+                            <span class="period">per month</span>
+                        </div>
+                    </div>
+                    <ul class="acc-type-features">
+                        <li><i class="fa-solid fa-check"></i> Free CheckCard</li>
+                        <li><i class="fa-solid fa-check"></i> Online Banking</li>
+                        <li><i class="fa-solid fa-check"></i> Monthly Statements</li>
+                        <li><i class="fa-solid fa-check"></i> Mobile App Access</li>
+                        <li><i class="fa-solid fa-check"></i> ATM Withdrawals</li>
+                        <li><i class="fa-solid fa-check"></i> Overdraft Facility</li>
+                        <li><i class="fa-solid fa-check"></i> Travel Insurance</li>
+                        <li class="inactive"><i class="fa-solid fa-xmark"></i> Priority Support</li>
+                    </ul>
+                    <a href="register.html" class="btn-blue acc-type-btn">Open Account</a>
+                </div>
+
+                <div class="acc-type-card">
+                    <div class="acc-type-header">
+                        <h3>Premium</h3>
+                        <div class="acc-type-price">
+                            <span class="price">$15</span>
+                            <span class="period">per month</span>
+                        </div>
+                    </div>
+                    <ul class="acc-type-features">
+                        <li><i class="fa-solid fa-check"></i> Free CheckCard</li>
+                        <li><i class="fa-solid fa-check"></i> Online Banking</li>
+                        <li><i class="fa-solid fa-check"></i> Monthly Statements</li>
+                        <li><i class="fa-solid fa-check"></i> Mobile App Access</li>
+                        <li><i class="fa-solid fa-check"></i> ATM Withdrawals</li>
+                        <li><i class="fa-solid fa-check"></i> Overdraft Facility</li>
+                        <li><i class="fa-solid fa-check"></i> Travel Insurance</li>
+                        <li><i class="fa-solid fa-check"></i> Priority Support</li>
+                    </ul>
+                    <a href="register.html" class="btn-blue acc-type-btn">Open Account</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW TO OPEN -->
+    <section class="how-open">
+        <div class="how-open-inner">
+            <h2 class="section-title white">How to Open Your <span>Account</span></h2>
+            <div class="section-underline"></div>
+            <div class="how-open-steps">
+                <div class="how-open-step">
+                    <div class="how-open-number">01</div>
+                    <i class="fa-solid fa-user-plus"></i>
+                    <h3>Register Online</h3>
+                    <p>Fill out our simple online registration form. It takes less than 5 minutes to complete.</p>
+                </div>
+                <div class="how-open-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="how-open-step">
+                    <div class="how-open-number">02</div>
+                    <i class="fa-solid fa-id-card"></i>
+                    <h3>Verify Identity</h3>
+                    <p>Upload a valid ID and proof of address. We verify your documents quickly and securely.</p>
+                </div>
+                <div class="how-open-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="how-open-step">
+                    <div class="how-open-number">03</div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h3>Get Approved</h3>
+                    <p>Receive your account approval within 24 hours and your CheckCard in the post.</p>
+                </div>
+                <div class="how-open-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="how-open-step">
+                    <div class="how-open-number">04</div>
+                    <i class="fa-solid fa-wallet"></i>
+                    <h3>Start Banking</h3>
+                    <p>Fund your account and start enjoying all the benefits of your new current account.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="faq-inner">
+            <h2 class="section-title"><span>Frequently Asked Questions</span></h2>
+            <div class="section-underline"></div>
+
+            <div class="faq-list">
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Is there a minimum balance required?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No. NovaTrust Bank current accounts have no minimum balance requirement. You can open and maintain your account with any amount.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How long does it take to open an account?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The online application takes less than 5 minutes. Once submitted, your account is typically approved within 24 hours and your CheckCard arrives within 3 to 5 business days.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Can I use my account internationally?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes. Your NovaTrust Bank CheckCard is accepted at millions of merchants and ATMs worldwide anywhere VISA is accepted. Standard international transaction fees may apply.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>What do I need to open an account?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You will need a valid government-issued photo ID such as a passport or national ID card, a proof of address dated within the last 3 months, and a valid email address and phone number.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How do I report a lost or stolen card?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can report a lost or stolen CheckCard or ATM card immediately through your online banking portal, via our mobile app or by calling our support team Monday to Friday from 8:30am to 5:00pm.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Open Your Current Account <span style="color: var(--teal);">Today</span></h2>
+        <p>Join thousands of NovaTrust Bank customers already enjoying smarter, simpler everyday banking. Takes less than 5 minutes to get started.</p>
+        <a href="register.html" class="btn-blue" style="margin-right: 15px;">OPEN ACCOUNT</a>
+        <a href="personal-banking.html" class="btn-blue btn-outline">LEARN MORE</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="NovaTrust Bank" class="footer-logo-img">
+                    <span class="footer-logo-text">NovaTrust Bank</span>
+                </div>
+                <p>NovaTrust Bank is a privately operated personal and business banking platform.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Receive Latest Updates for Free</h3>
+                <input type="email" class="footer-input" placeholder="Email Address">
+                <button class="footer-btn">Subscribe</button>
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="careers.html">Career</a>
+                    <a href="personal-banking.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Copyright © 2024 NovaTrust Bank</span>
+            <span>All rights reserved.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
