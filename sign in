@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html">Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="personal-banking.html">Current Account</a>
+                    <a href="personal-banking.html">Savings Account</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="private-banking.html">Investment Plans</a>
+                    <a href="private-banking.html">Business Loans</a>
+                </div>
+            </li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <div class="auth-page">
+        <div class="auth-card">
+            <div class="auth-logo">
+                <img src="assets/logo.png" alt="NovaTrust Bank">
+                <h2>NovaTrust Bank</h2>
+            </div>
+            <h1>Welcome Back</h1>
+            <p class="auth-subtitle">Sign in to your account to continue</p>
+            <form id="signinForm">
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-input" placeholder="Enter your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="form-label-row">
+                        Password
+                        <a href="#">Forgot Password?</a>
+                    </label>
+                    <input type="password" id="password" class="form-input" placeholder="Enter your password" required>
+                </div>
+
+                <div class="form-check-wrapper center">
+                    <input type="checkbox" id="remember" class="form-checkbox">
+                    <label for="remember" class="form-check-label">Remember me</label>
+                </div>
+
+                <button type="submit" class="auth-btn">Sign In</button>
+            </form>
+            <p class="auth-switch">Don't have an account? <a href="register.html">Create one</a></p>
+        </div>
+    </div>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
