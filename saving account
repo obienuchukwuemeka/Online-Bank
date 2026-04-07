@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Savings Account - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html" class="active">Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="currentacc.html">Current Account</a>
+                    <a href="savings-accounts.html">Savings Account</a>
+                    <a href="personal-loans.html">Personal Loans</a>
+                    <a href="credit-cards.html">Credit Cards</a>
+                    <a href="mortgages.html">Mortgages</a>
+                    <a href="personal-insurance.html">Personal Insurance</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="investment-plans.html">Investment Plans</a>
+                    <a href="business-loans.html">Business Loans</a>
+                    <a href="wealth-management.html">Wealth Management</a>
+                    <a href="business-account.html">Business Account</a>
+                </div>
+            </li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <div class="lang-switcher">
+                <i class="fa-solid fa-globe"></i>
+                <span>🇬🇧 English</span>
+                <div class="lang-dropdown">
+                    <a href="#" onclick="changeLang('EN')">🇬🇧 English</a>
+                    <a href="#" onclick="changeLang('FR')">🇫🇷 French</a>
+                    <a href="#" onclick="changeLang('ES')">🇪🇸 Spanish</a>
+                    <a href="#" onclick="changeLang('AR')">🇸🇦 Arabic</a>
+                </div>
+            </div>
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="page-hero">
+        <h1>Save Smarter, <span>Live Better</span></h1>
+        <p>Grow your money with NovaTrust Bank's competitive savings accounts. Start with as little as $10 and watch your future take shape.</p>
+    </div>
+
+    <!-- BLOG / IMAGE + QUICK LINKS -->
+    <div class="blog">
+        <div class="blog-img">
+            <img src="assets/green-economy-jar-with-money-growing-plant.jpg" alt="Savings Account">
+            <div class="blog-text">
+                <h2>Savings Accounts</h2>
+                <p>Competitive interest rates, no hidden charges and easy online access to help your money grow every single day.</p>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h1>Quick Links</h1>
+            <ul>
+                <li><a href="currentacc.html"><i class="fa-solid fa-circle-dot"></i> Current Accounts</a></li>
+                <li><a href="credit-cards.html"><i class="fa-solid fa-circle-dot"></i> Credit Cards</a></li>
+                <li><a href="savings-accounts.html"><i class="fa-solid fa-circle-dot"></i> Savings Accounts</a></li>
+                <li><a href="personal-loans.html"><i class="fa-solid fa-circle-dot"></i> Personal Loan</a></li>
+                <li><a href="mortgages.html"><i class="fa-solid fa-circle-dot"></i> Mortgages</a></li>
+                <li><a href="personal-insurance.html"><i class="fa-solid fa-circle-dot"></i> Personal Insurance</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="blog-detail">
+        <div class="blog-detail-content">
+
+            <h2>NovaTrust Bank <span>Savings Accounts</span></h2>
+
+            <p>NovaTrust Bank offers a range of savings accounts designed to help you build financial security at your own pace. Whether you are saving for a rainy day, a dream holiday, or your children's future, we have a savings solution that fits your lifestyle. Our accounts come with no hidden charges, easy online access, and competitive interest rates that work harder for your money.</p>
+
+            <p>Opening a savings account with NovaTrust Bank takes just a few minutes. You can start saving with as little as $10 and make deposits at any time through our online banking platform, mobile app, or at any of our branch locations. Interest is calculated daily and credited to your account monthly, so your savings grow consistently without you having to do anything extra.</p>
+
+            <p>At NovaTrust Bank, we believe everyone deserves access to smart saving tools regardless of their income level. Our dedicated savings advisors are available Monday to Friday from 8:30am to 5:00pm to help you choose the right account and set up a savings plan that works for you. Take control of your financial future today and open a NovaTrust Bank savings account in minutes.</p>
+
+        </div>
+    </div>
+
+    <!-- SAVINGS FEATURES -->
+    <section class="acc-features">
+        <div class="acc-features-inner">
+            <h2 class="section-title white">Why Save With <span>NovaTrust</span></h2>
+            <div class="section-underline"></div>
+            <div class="acc-features-grid">
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-percent"></i>
+                    <h3>Competitive Rates</h3>
+                    <p>Earn some of the best interest rates available with returns calculated daily and paid monthly.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-piggy-bank"></i>
+                    <h3>Start from $10</h3>
+                    <p>No large deposit required. Start saving with as little as $10 and build your balance over time.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-lock"></i>
+                    <h3>FDIC Insured</h3>
+                    <p>Your deposits are fully insured up to $250,000 so your savings are always protected.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h3>Mobile Access</h3>
+                    <p>Manage your savings anytime through our secure mobile banking app, available 24/7.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-ban"></i>
+                    <h3>No Hidden Fees</h3>
+                    <p>No monthly charges, no maintenance fees and no penalties for making additional deposits.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <h3>Auto Savings</h3>
+                    <p>Set up automatic transfers from your current account to save effortlessly every month.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-chart-bar"></i>
+                    <h3>Savings Tracker</h3>
+                    <p>Track your savings progress and see exactly how close you are to reaching your goal.</p>
+                </div>
+                <div class="acc-feature-item">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Expert Advice</h3>
+                    <p>Dedicated savings advisors available to help you choose the right plan for your goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAVINGS ACCOUNT TYPES -->
+    <section class="acc-types">
+        <div class="acc-types-inner">
+            <h2 class="section-title">Choose Your <span>Savings Plan</span></h2>
+            <div class="section-underline"></div>
+            <p class="acc-types-subtitle">We offer three savings plans to match your goals and financial situation.</p>
+
+            <div class="acc-types-grid">
+
+                <div class="acc-type-card">
+                    <div class="acc-type-header">
+                        <h3>Easy Saver</h3>
+                        <div class="acc-type-price">
+                            <span class="price">2.5%</span>
+                            <span class="period">AER interest</span>
+                        </div>
+                    </div>
+                    <ul class="acc-type-features">
+                        <li><i class="fa-solid fa-check"></i> Start from $10</li>
+                        <li><i class="fa-solid fa-check"></i> Instant Access</li>
+                        <li><i class="fa-solid fa-check"></i> Monthly Interest</li>
+                        <li><i class="fa-solid fa-check"></i> Online Management</li>
+                        <li><i class="fa-solid fa-check"></i> No Monthly Fees</li>
+                        <li class="inactive"><i class="fa-solid fa-xmark"></i> Bonus Interest</li>
+                        <li class="inactive"><i class="fa-solid fa-xmark"></i> Fixed Rate Option</li>
+                        <li class="inactive"><i class="fa-solid fa-xmark"></i> Priority Support</li>
+                    </ul>
+                    <a href="register.html" class="btn-blue acc-type-btn">Open Account</a>
+                </div>
+
+                <div class="acc-type-card popular">
+                    <div class="acc-popular-badge">Best Rate</div>
+                    <div class="acc-type-header">
+                        <h3>Goal Saver</h3>
+                        <div class="acc-type-price">
+                            <span class="price">4.2%</span>
+                            <span class="period">AER interest</span>
+                        </div>
+                    </div>
+                    <ul class="acc-type-features">
+                        <li><i class="fa-solid fa-check"></i> Start from $100</li>
+                        <li><i class="fa-solid fa-check"></i> Instant Access</li>
+                        <li><i class="fa-solid fa-check"></i> Monthly Interest</li>
+                        <li><i class="fa-solid fa-check"></i> Online Management</li>
+                        <li><i class="fa-solid fa-check"></i> No Monthly Fees</li>
+                        <li><i class="fa-solid fa-check"></i> Bonus Interest</li>
+                        <li><i class="fa-solid fa-check"></i> Fixed Rate Option</li>
+                        <li class="inactive"><i class="fa-solid fa-xmark"></i> Priority Support</li>
+                    </ul>
+                    <a href="register.html" class="btn-blue acc-type-btn">Open Account</a>
+                </div>
+
+                <div class="acc-type-card">
+                    <div class="acc-type-header">
+                        <h3>Fixed Term</h3>
+                        <div class="acc-type-price">
+                            <span class="price">5.8%</span>
+                            <span class="period">AER interest</span>
+                        </div>
+                    </div>
+                    <ul class="acc-type-features">
+                        <li><i class="fa-solid fa-check"></i> Start from $500</li>
+                        <li><i class="fa-solid fa-check"></i> 12 Month Term</li>
+                        <li><i class="fa-solid fa-check"></i> Monthly Interest</li>
+                        <li><i class="fa-solid fa-check"></i> Online Management</li>
+                        <li><i class="fa-solid fa-check"></i> No Monthly Fees</li>
+                        <li><i class="fa-solid fa-check"></i> Bonus Interest</li>
+                        <li><i class="fa-solid fa-check"></i> Fixed Rate Option</li>
+                        <li><i class="fa-solid fa-check"></i> Priority Support</li>
+                    </ul>
+                    <a href="register.html" class="btn-blue acc-type-btn">Open Account</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SAVINGS CALCULATOR -->
+    <section class="savings-calc">
+        <div class="savings-calc-inner">
+            <h2 class="section-title white">Savings <span>Calculator</span></h2>
+            <div class="section-underline"></div>
+            <p class="section-subtitle white">See how much your savings could grow with NovaTrust Bank.</p>
+
+            <div class="calc-box">
+                <div class="calc-inputs">
+                    <div class="calc-group">
+                        <label>Initial Deposit ($)</label>
+                        <input type="number" id="calcDeposit" value="1000" min="10" class="calc-input">
+                    </div>
+                    <div class="calc-group">
+                        <label>Monthly Contribution ($)</label>
+                        <input type="number" id="calcMonthly" value="100" min="0" class="calc-input">
+                    </div>
+                    <div class="calc-group">
+                        <label>Interest Rate (%)</label>
+                        <input type="number" id="calcRate" value="4.2" min="0" step="0.1" class="calc-input">
+                    </div>
+                    <div class="calc-group">
+                        <label>Time Period (Years)</label>
+                        <input type="number" id="calcYears" value="5" min="1" max="30" class="calc-input">
+                    </div>
+                </div>
+                <button class="btn-blue calc-btn" onclick="calculateSavings()">Calculate</button>
+                <div class="calc-result" id="calcResult">
+                    <div class="calc-result-item">
+                        <span>Total Saved</span>
+                        <h3 id="totalSaved">$0</h3>
+                    </div>
+                    <div class="calc-result-item">
+                        <span>Interest Earned</span>
+                        <h3 id="interestEarned">$0</h3>
+                    </div>
+                    <div class="calc-result-item">
+                        <span>Final Balance</span>
+                        <h3 id="finalBalance">$0</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW TO OPEN -->
+    <section class="how-open">
+        <div class="how-open-inner">
+            <h2 class="section-title white">How to Open Your <span>Savings Account</span></h2>
+            <div class="section-underline"></div>
+            <div class="how-open-steps">
+                <div class="how-open-step">
+                    <div class="how-open-number">01</div>
+                    <i class="fa-solid fa-user-plus"></i>
+                    <h3>Register Online</h3>
+                    <p>Fill in our quick online form. Takes less than 5 minutes to complete from any device.</p>
+                </div>
+                <div class="how-open-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="how-open-step">
+                    <div class="how-open-number">02</div>
+                    <i class="fa-solid fa-id-card"></i>
+                    <h3>Verify Identity</h3>
+                    <p>Upload your ID and proof of address. We process your documents quickly and securely.</p>
+                </div>
+                <div class="how-open-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="how-open-step">
+                    <div class="how-open-number">03</div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h3>Choose Your Plan</h3>
+                    <p>Select the savings plan that best matches your goals and financial situation.</p>
+                </div>
+                <div class="how-open-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="how-open-step">
+                    <div class="how-open-number">04</div>
+                    <i class="fa-solid fa-piggy-bank"></i>
+                    <h3>Start Saving</h3>
+                    <p>Make your first deposit and start earning interest from day one.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="faq-inner">
+            <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+            <div class="section-underline"></div>
+            <div class="faq-list">
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>What is the minimum amount I need to open a savings account?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can open an Easy Saver account with as little as $10. The Goal Saver requires a minimum of $100 and the Fixed Term account requires a minimum opening deposit of $500.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>How is interest calculated on my savings?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Interest is calculated daily on your account balance and credited to your account at the end of each month. This means your interest starts working for you from the very first day you deposit.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Can I withdraw my money at any time?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Easy Saver and Goal Saver accounts offer instant access with no withdrawal penalties. The Fixed Term account requires funds to remain deposited for the agreed term to receive the full interest rate.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Are my savings protected?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes. All NovaTrust Bank savings accounts are FDIC insured up to $250,000 per depositor. Your money is completely safe with us at all times.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Can I have more than one savings account?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes. You can open multiple savings accounts with NovaTrust Bank to save for different goals at the same time. For example you could have an Easy Saver for emergencies and a Fixed Term account for long-term growth.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Start Growing Your <span style="color: var(--teal);">Savings Today</span></h2>
+        <p>Open a NovaTrust Bank savings account in minutes and start earning competitive interest from day one. No hidden fees, no minimum balance stress.</p>
+        <a href="register.html" class="btn-blue" style="margin-right: 15px;">OPEN ACCOUNT</a>
+        <a href="personal-banking.html" class="btn-blue btn-outline">LEARN MORE</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="NovaTrust Bank" class="footer-logo-img">
+                    <span class="footer-logo-text">NovaTrust Bank</span>
+                </div>
+                <p>NovaTrust Bank is a privately operated personal and business banking platform.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Receive Latest Updates for Free</h3>
+                <input type="email" class="footer-input" placeholder="Email Address">
+                <button class="footer-btn">Subscribe</button>
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="careers.html">Career</a>
+                    <a href="personal-banking.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Copyright © 2024 NovaTrust Bank</span>
+            <span>All rights reserved.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
