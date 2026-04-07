@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="careers.css">
+    <title>Careers - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html">Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="currentacc.html">Current Account</a>
+                    <a href="savings-accounts.html">Savings Account</a>
+                    <a href="personal-loans.html">Personal Loans</a>
+                    <a href="credit-cards.html">Credit Cards</a>
+                    <a href="mortgages.html">Mortgages</a>
+                    <a href="personal-insurance.html">Personal Insurance</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="investment-plans.html">Investment Plans</a>
+                    <a href="business-loans.html">Business Loans</a>
+                    <a href="wealth-management.html">Wealth Management</a>
+                    <a href="business-account.html">Business Account</a>
+                </div>
+            </li>
+            <li><a href="careers.html" class="active">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <div class="lang-switcher">
+                <i class="fa-solid fa-globe"></i>
+                <span>🇬🇧 English</span>
+                <div class="lang-dropdown">
+                    <a href="#" onclick="changeLang('EN')">🇬🇧 English</a>
+                    <a href="#" onclick="changeLang('FR')">🇫🇷 French</a>
+                    <a href="#" onclick="changeLang('ES')">🇪🇸 Spanish</a>
+                    <a href="#" onclick="changeLang('AR')">🇸🇦 Arabic</a>
+                </div>
+            </div>
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="careers-hero">
+        <div class="careers-hero-content">
+            <span class="careers-badge">WE ARE HIRING</span>
+            <h1>Build Your Career at <span>NovaTrust Bank</span></h1>
+            <p>Join a team of passionate professionals dedicated to transforming the future of banking. We offer growth, purpose and a place where your talent truly matters.</p>
+            <a href="#jobs" class="btn-blue">View Open Positions</a>
+        </div>
+    </div>
+
+    <!-- STATS BAR -->
+    <div class="careers-stats">
+        <div class="careers-stat">
+            <h3>2,500+</h3>
+            <p>Employees Worldwide</p>
+        </div>
+        <div class="careers-stat">
+            <h3>18+</h3>
+            <p>Countries</p>
+        </div>
+        <div class="careers-stat">
+            <h3>95%</h3>
+            <p>Employee Satisfaction</p>
+        </div>
+        <div class="careers-stat">
+            <h3>40+</h3>
+            <p>Open Positions</p>
+        </div>
+    </div>
+
+    <!-- WHY JOIN US -->
+    <section class="why-join">
+        <div class="why-join-inner">
+            <h2 class="section-title">Why Join <span>NovaTrust Bank</span></h2>
+            <div class="section-underline"></div>
+            <p class="why-join-subtitle">We believe our people are our greatest asset. Here is what makes NovaTrust Bank a place where careers truly flourish.</p>
+
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Career Growth</h3>
+                    <p>We invest in your development with structured career paths, mentorship programmes and sponsored professional qualifications to help you reach your full potential.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <h3>Wellbeing First</h3>
+                    <p>Your health and happiness matter to us. We offer comprehensive health insurance, mental health support, flexible working arrangements and generous annual leave.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-globe"></i></div>
+                    <h3>Global Exposure</h3>
+                    <p>Work with colleagues and clients across 18 countries. NovaTrust Bank offers international mobility and cross-border project opportunities for ambitious professionals.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-coins"></i></div>
+                    <h3>Competitive Pay</h3>
+                    <p>We offer market-leading salaries, performance bonuses, pension contributions and a comprehensive benefits package that rewards your hard work and dedication.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-people-group"></i></div>
+                    <h3>Inclusive Culture</h3>
+                    <p>We celebrate diversity and inclusion. Every voice is valued, every background is welcome and every team member is treated with respect and fairness.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Innovation Driven</h3>
+                    <p>Be part of a bank that is at the forefront of financial technology. We encourage creative thinking, embrace new ideas and reward those who challenge the status quo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIFE AT NOVATRUST -->
+    <section class="life-section">
+        <div class="life-inner">
+            <div class="life-text">
+                <h2>Life at <span>NovaTrust Bank</span></h2>
+                <p>At NovaTrust Bank, we have built a culture where ambition meets purpose. Our teams are collaborative, our leadership is approachable and our offices are designed to inspire creativity and productivity.</p>
+                <p>From team socials and wellness days to global conferences and learning retreats, we make sure our employees feel valued, connected and motivated to do their best work every single day.</p>
+                <div class="life-checklist">
+                    <div class="life-check"><i class="fa-solid fa-check"></i> Flexible and hybrid working options</div>
+                    <div class="life-check"><i class="fa-solid fa-check"></i> Annual performance reviews and bonuses</div>
+                    <div class="life-check"><i class="fa-solid fa-check"></i> Sponsored learning and certifications</div>
+                    <div class="life-check"><i class="fa-solid fa-check"></i> Employee assistance programme</div>
+                    <div class="life-check"><i class="fa-solid fa-check"></i> Team events and company retreats</div>
+                    <div class="life-check"><i class="fa-solid fa-check"></i> Internal promotion opportunities</div>
+                </div>
+            </div>
+            <div class="life-image">
+                <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600" alt="Life at NovaTrust Bank">
+            </div>
+        </div>
+    </section>
+
+    <!-- JOB LISTINGS -->
+    <section class="jobs-section" id="jobs">
+        <div class="jobs-inner">
+            <h2 class="section-title">Open <span>Positions</span></h2>
+            <div class="section-underline"></div>
+
+            <!-- Filter tabs -->
+            <div class="job-filters">
+                <button class="job-filter-btn active" data-filter="all">All Departments</button>
+                <button class="job-filter-btn" data-filter="technology">Technology</button>
+                <button class="job-filter-btn" data-filter="finance">Finance</button>
+                <button class="job-filter-btn" data-filter="operations">Operations</button>
+                <button class="job-filter-btn" data-filter="customer">Customer Service</button>
+                <button class="job-filter-btn" data-filter="marketing">Marketing</button>
+            </div>
+
+            <!-- Job cards -->
+            <div class="jobs-list" id="jobsList">
+
+                <div class="job-listing-card" data-dept="technology">
+                    <div class="job-listing-info">
+                        <div class="job-listing-icon"><i class="fa-solid fa-code"></i></div>
+                        <div>
+                            <h3>Senior Software Engineer</h3>
+                            <p>Technology · Full Time · Remote</p>
+                            <div class="job-listing-tags">
+                                <span class="job-listing-tag">Technology</span>
+                                <span class="job-listing-tag">Full Time</span>
+                                <span class="job-listing-tag">Remote</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-blue job-apply-btn">Apply Now</a>
+                </div>
+
+                <div class="job-listing-card" data-dept="finance">
+                    <div class="job-listing-info">
+                        <div class="job-listing-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                        <div>
+                            <h3>Financial Analyst</h3>
+                            <p>Finance · Full Time · Lagos</p>
+                            <div class="job-listing-tags">
+                                <span class="job-listing-tag">Finance</span>
+                                <span class="job-listing-tag">Full Time</span>
+                                <span class="job-listing-tag">On-Site</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-blue job-apply-btn">Apply Now</a>
+                </div>
+
+                <div class="job-listing-card" data-dept="customer">
+                    <div class="job-listing-info">
+                        <div class="job-listing-icon"><i class="fa-solid fa-headset"></i></div>
+                        <div>
+                            <h3>Customer Service Representative</h3>
+                            <p>Customer Service · Full Time · Lagos</p>
+                            <div class="job-listing-tags">
+                                <span class="job-listing-tag">Customer Service</span>
+                                <span class="job-listing-tag">Full Time</span>
+                                <span class="job-listing-tag">On-Site</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-blue job-apply-btn">Apply Now</a>
+                </div>
+
+                <div class="job-listing-card" data-dept="technology">
+                    <div class="job-listing-info">
+                        <div class="job-listing-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div>
+                            <h3>Cybersecurity Analyst</h3>
+                            <p>Technology · Full Time · Remote</p>
+                            <div class="job-listing-tags">
+                                <span class="job-listing-tag">Technology</span>
+                                <span class="job-listing-tag">Full Time</span>
+                                <span class="job-listing-tag">Remote</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-blue job-apply-btn">Apply Now</a>
+                </div>
+
+                <div class="job-listing-card" data-dept="operations">
+                    <div class="job-listing-info">
+                        <div class="job-listing-icon"><i class="fa-solid fa-gears"></i></div>
+                        <div>
+                            <h3>Operations Manager</h3>
+                            <p>Operations · Full Time · Abuja</p>
+                            <div class="job-listing-tags">
+                                <span class="job-listing-tag">Operations</span>
+                                <span class="job-listing-tag">Full Time</span>
+                                <span class="job-listing-tag">On-Site</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-blue job-apply-btn">Apply Now</a>
+                </div>
+
+                <div class="job-listing-card" data-dept="marketing">
+                    <div class="job-listing-info">
+                        <div class="job-listing-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                        <div>
+                            <h3>Digital Marketing Specialist</h3>
+                            <p>Marketing · Full Time · Hybrid</p>
+                            <div class="job-listing-tags">
+                                <span class="job-listing-tag">Marketing</span>
+                                <span class="job-listing-tag">Full Time</span>
+                                <span class="job-listing-tag">Hybrid</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-blue job-apply-btn">Apply Now</a>
+                </div>
+
+                <div class="job-listing-card" data-dept="finance">
+                    <div class="job-listing-info">
+                        <div class="job-listing-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                        <div>
+                            <h3>Risk and Compliance Officer</h3>
+                            <p>Finance · Full Time · Lagos</p>
+                            <div class="job-listing-tags">
+                                <span class="job-listing-tag">Finance</span>
+                                <span class="job-listing-tag">Full Time</span>
+                                <span class="job-listing-tag">On-Site</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-blue job-apply-btn">Apply Now</a>
+                </div>
+
+                <div class="job-listing-card" data-dept="technology">
+                    <div class="job-listing-info">
+                        <div class="job-listing-icon"><i class="fa-solid fa-database"></i></div>
+                        <div>
+                            <h3>Data Engineer</h3>
+                            <p>Technology · Full Time · Remote</p>
+                            <div class="job-listing-tags">
+                                <span class="job-listing-tag">Technology</span>
+                                <span class="job-listing-tag">Full Time</span>
+                                <span class="job-listing-tag">Remote</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-blue job-apply-btn">Apply Now</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+    <section class="process-section">
+        <div class="process-inner">
+            <h2 class="section-title white">Our Hiring <span>Process</span></h2>
+            <div class="section-underline"></div>
+            <p class="section-subtitle white">We keep our hiring process straightforward, transparent and respectful of your time.</p>
+
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="process-number">01</div>
+                    <h3>Apply Online</h3>
+                    <p>Submit your application and CV through our online portal. We review every single application personally.</p>
+                </div>
+                <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="process-step">
+                    <div class="process-number">02</div>
+                    <h3>Initial Interview</h3>
+                    <p>A short 30-minute video call with our HR team to learn more about you, your experience and your goals.</p>
+                </div>
+                <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="process-step">
+                    <div class="process-number">03</div>
+                    <h3>Technical Assessment</h3>
+                    <p>A role-specific assessment or case study to help us understand your skills and how you approach challenges.</p>
+                </div>
+                <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="process-step">
+                    <div class="process-number">04</div>
+                    <h3>Final Interview</h3>
+                    <p>Meet the team and senior leadership. We want you to get to know us just as much as we want to know you.</p>
+                </div>
+                <div class="process-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="process-step">
+                    <div class="process-number">05</div>
+                    <h3>Offer & Onboarding</h3>
+                    <p>Receive your offer letter and begin a structured onboarding programme to set you up for success from day one.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Don't See a Role That Fits?</h2>
+        <p>Send us your CV and we will keep you in mind for future opportunities that match your skills and experience.</p>
+        <a href="mailto:careers@novatrust.com" class="btn-blue">Send Your CV</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="NovaTrust Bank" class="footer-logo-img">
+                    <span class="footer-logo-text">NovaTrust Bank</span>
+                </div>
+                <p>NovaTrust Bank is a privately operated personal and business banking platform.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Receive Latest Updates for Free</h3>
+                <input type="email" class="footer-input" placeholder="Email Address">
+                <button class="footer-btn">Subscribe</button>
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="careers.html">Career</a>
+                    <a href="personal-banking.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Copyright © 2024 NovaTrust Bank</span>
+            <span>All rights reserved.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+    <script src="careers.js"></script>
+</body>
+</html>
