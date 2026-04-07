@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Banking - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html" >Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="currentacc.html">Current Account</a>
+                    <a href="savings-accounts.html">Savings Account</a>
+                    <a href="personal-loans.html">Personal Loans</a>
+                    <a href="credit-cards.html">Credit Cards</a>
+                    <a href="mortgages.html">Mortgages</a>
+                    <a href="personal-insurance.html">Personal Insurance</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html" class="active">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="investment-plans.html">Investment Plans</a>
+                    <a href="business-loans.html">Business Loans</a>
+                    <a href="wealth-management.html">Wealth Management</a>
+                    <a href="private-banking.html">Business Account</a>
+                </div>
+            </li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <div class="lang-switcher">
+                <i class="fa-solid fa-globe"></i>
+                <span>🇬🇧 English</span>
+                <div class="lang-dropdown">
+                    <a href="#" onclick="changeLang('EN')">🇬🇧 English</a>
+                    <a href="#" onclick="changeLang('FR')">🇫🇷 French</a>
+                    <a href="#" onclick="changeLang('ES')">🇪🇸 Spanish</a>
+                    <a href="#" onclick="changeLang('AR')">🇸🇦 Arabic</a>
+                </div>
+            </div>
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <div class="page-hero2">
+        <h1>Fuel Your Business, <span>Fund Your Growth</span></h1>
+        <p>NovaTrust Bank business loans are built to help entrepreneurs and businesses of all sizes access the capital they need to grow, expand and succeed. Fast approvals, competitive rates and flexible terms designed around your business.</p>
+    </div>
+
+    <!-- Blog / Content Section -->
+    <div class="blog">
+
+        <div class="blog-img">
+            <img src="assets/side-view-businesswoman-showing-analytical-charts-her-male-coworker.jpg" alt="Blog Image">
+            <div class="blog-text">
+                <h2>Business Loans</h2>
+                <p>NovaTrust Bank business loans are built to help entrepreneurs and businesses of all sizes access the capital they need to grow, expand and succeed. Fast approvals, competitive rates and flexible terms designed around your business.</p>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h1>Quick Links</h1>
+            <ul>
+                <li><a href="investment-plans.html"><i class="fa-solid fa-circle-dot"></i> Investment Plans</a></li>
+                <li><a href="business-loans.html"><i class="fa-solid fa-circle-dot"></i> Business Loans</a></li>
+                <li><a href="savings-accounts.html"><i class="fa-solid fa-circle-dot"></i> Wealth Management</a></li>
+                <li><a href="personal-loans.html"><i class="fa-solid fa-circle-dot"></i> Personal Loan</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Detailed Content Section -->
+    <div class="blog-detail">
+        <div class="blog-detail-content">
+
+            <h2>Primefinance Global Investment Plans</h2>
+            <p>NovaTrust Bank business loans are designed to give businesses of all sizes quick and reliable access to the funding they need to grow and thrive. Whether you are a startup looking for seed capital, an established business seeking to expand your operations, purchase new equipment or manage cash flow, our business loan specialists will work with you to structure a loan that fits your business model, revenue and repayment capacity. We understand that every business is different, which is why every loan we offer is tailored specifically to your circumstances.</p>
+            <p>Applying for a NovaTrust Bank business loan is a fast and straightforward process that can be completed entirely online. Simply submit your business details and financial information through our secure online portal and our team will assess your application and provide a decision within 24 hours. Once approved, funds are transferred directly to your business account so you can move quickly and take advantage of opportunities without delay. Loan amounts range from $5,000 to $500,000 with flexible repayment periods of up to 84 months to match your cash flow.</p>
+            <p>At NovaTrust Bank we are committed to being a long-term financial partner for your business, not just a lender. Our business loans come with no hidden charges, no early repayment penalties and some of the most competitive interest rates available in the market today. Our dedicated business banking advisors are available Monday to Friday from 8:30am to 5:00pm to guide you through the application process, answer your questions and help you find the right funding solution for your business goals. With NovaTrust Bank behind you, your business has the financial foundation it needs to reach its full potential.</p>
+
+        </div>
+    </div>
+
+    <section class="cta">
+        <h2>Ready to get started?</h2>
+        <p>Open your personal banking account today in just a few minutes.</p>
+        <a href="register.html" class="btn-blue">OPEN ACCOUNT</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="NovaTrust Bank" class="footer-logo-img">
+                    <span class="footer-logo-text">NovaTrust Bank</span>
+                </div>
+                <p>NovaTrust Bank is a privately operated personal and business banking platform.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Receive Latest Updates for Free</h3>
+                <input type="email" class="footer-input" placeholder="Email Address">
+                <button class="footer-btn">Subscribe</button>
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="careers.html">Career</a>
+                    <a href="personal-banking.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Copyright © 2024 NovaTrust Bank</span>
+            <span>All rights reserved.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
