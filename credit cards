@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Banking - NovaTrust Bank</title>
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <img src="assets/logo.png" alt="NovaTrust Bank Logo">
+            </div>
+            <span class="logo-text">NovaTrust Bank</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="personal-banking.html" class="active">Personal Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="current-accounts.html">Current Account</a>
+                    <a href="savings-accounts.html">Savings Account</a>
+                    <a href="personal-loans.html">Personal Loans</a>
+                    <a href="credit-cards.html">Credit Cards</a>
+                    <a href="mortgages.html">Mortgages</a>
+                    <a href="personal-insurance.html">Personal Insurance</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="private-banking.html">Private Banking ▾</a>
+                <div class="dropdown-menu">
+                    <a href="investment-plans.html">Investment Plans</a>
+                    <a href="business-loans.html">Business Loans</a>
+                    <a href="private-banking.html">Wealth Management</a>
+                    <a href="private-banking.html">Business Account</a>
+                </div>
+            </li>
+            <li><a href="careers.html">Careers</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <div class="lang-switcher">
+                <i class="fa-solid fa-globe"></i>
+                <span>🇬🇧 English</span>
+                <div class="lang-dropdown">
+                    <a href="#" onclick="changeLang('EN')">🇬🇧 English</a>
+                    <a href="#" onclick="changeLang('FR')">🇫🇷 French</a>
+                    <a href="#" onclick="changeLang('ES')">🇪🇸 Spanish</a>
+                    <a href="#" onclick="changeLang('AR')">🇸🇦 Arabic</a>
+                </div>
+            </div>
+            <a href="signin.html" class="btn-signin">Sign In</a>
+            <a href="register.html" class="btn-register">Register</a>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <h1>Personal <span>Banking</span></h1>
+        <p>Manage your personal finances with ease. From current accounts to personal loans, we have everything you need.</p>
+    </div>
+
+    <!-- Blog / Content Section -->
+    <div class="blog">
+
+        <div class="blog-img">
+            <img src="assets/credit-card-payment-buy-sell-products-service.jpg" alt="Blog Image">
+            <div class="blog-text">
+                <h2>Credit Card</h2>
+                <p>We make it easy to card that is right for you, including Visa (trademark, symbol),
+                    MasterCard Gold, Platinum Visa and the Visa Flex Miles Cards that reward you with free airline tickets. These cards are accepted worldwide at businesses, financial institutions and ATMs. MasterCard® and VISA® Card applications are available at all NovaTrust Bank location. Credit Cards are subject to credit approval.</p>
+                </p>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <h1>Quick Links</h1>
+            <ul>
+                <li><a href="currentacc.html"><i class="fa-solid fa-circle-dot"></i> Current Accounts</a></li>
+                <li><a href="credit-cards.html"><i class="fa-solid fa-circle-dot"></i> Credit Cards</a></li>
+                <li><a href="savings-accounts.html"><i class="fa-solid fa-circle-dot"></i> Savings Accounts</a></li>
+                <li><a href="personal-loans.html"><i class="fa-solid fa-circle-dot"></i> Personal Loan</a></li>
+                <li><a href="mortgages.html"><i class="fa-solid fa-circle-dot"></i> Mortgages</a></li>
+                <li><a href="personal-insurance.html"><i class="fa-solid fa-circle-dot"></i> Personal Insurance</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Detailed Content Section -->
+    <div class="blog-detail">
+        <div class="blog-detail-content">
+
+            <h2>Primefinance Global Credit Cards</h2>
+            <p>Anyone who opens a personal checking account may apply for a free NovaTrust Bank CheckCard. It's the card that works like a check, anywhere VISA is accepted. It also serves as an ATM card at any PULSE/CIRRUS/DASH affiliated Automatic Teller Machine or PULSEPAY terminal. Choose your own Personal Identification Number (PIN) at your nearest NovaTrust Bank location.</p>
+
+            <p>There is no fee for withdrawals or transactions at ATMs we operate. There is a fee for transactions at other ATMs. There is no charge or annual fee for using the CheckCard in place of writing a check. No identification or checkbook to carry. All CheckCard purchases are identified on your monthly statement.</p>
+
+            <p>To report lost or stolen NovaTrust Bank Checkcards or ATM Cards: Monday – Friday from 8:30am to 5:00pm</p>
+
+            <p>We make it easy to choose the credit card that is right for you, including Visa (trademark symbol), MasterCard™ Gold, Platinum Visa and the Visa Flex Miles Cards that reward you with free airline tickets. These cards are accepted worldwide at businesses, financial institutions and ATMs. MasterCard® and VISA® Card applications are available at all NovaTrust Bank location. Credit Cards are subject to credit approval.</p>
+
+
+        </div>
+    </div>
+
+    <section class="cta">
+        <h2>Ready to get started?</h2>
+        <p>Open your personal banking account today in just a few minutes.</p>
+        <a href="register.html" class="btn-blue">OPEN ACCOUNT</a>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="NovaTrust Bank" class="footer-logo-img">
+                    <span class="footer-logo-text">NovaTrust Bank</span>
+                </div>
+                <p>NovaTrust Bank is a privately operated personal and business banking platform.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <h3>Receive Latest Updates for Free</h3>
+                <input type="email" class="footer-input" placeholder="Email Address">
+                <button class="footer-btn">Subscribe</button>
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="careers.html">Career</a>
+                    <a href="personal-banking.html">Contact</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Copyright © 2024 NovaTrust Bank</span>
+            <span>All rights reserved.</span>
+        </div>
+    </footer>
+
+    <a href="#" class="chat-btn"><i class="fa-solid fa-comment"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
